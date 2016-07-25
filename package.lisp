@@ -1,6 +1,11 @@
 (in-package #:cl-user)
 
 (defpackage #:cl-httparser
-  (:use #:common-lisp #:drakma #:plump #:clss)
+  (:use #:common-lisp #:chunga)
   (:export
-   #:hello-world))
+   #:hello-world
+   #:get->source
+   #:source->css->text
+   #:vector->string
+   #:*default-charset*
+   #:*default-encode-engine*))

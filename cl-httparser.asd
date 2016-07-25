@@ -9,5 +9,7 @@
   :author "Vito Van"
   :serial t
   :components ((:file "package")
-               (:file "toolbox"))
-  :depends-on (:drakma :plump :clss))
+               (:file "specials")
+               (:file "toolbox")
+               (:file "string"))
+  :depends-on (:drakma :plump :clss :iconv :babel))
